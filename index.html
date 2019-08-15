@@ -1,21 +1,253 @@
-<!---ENTER CODE FOR Homepage -->
+<!---ENTER CODE FOR Latitude Homepage -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Homepage for Latitude</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css" rel="stylesheet" type="text/cc">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <title>Latitude</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-  <link rel="stylesheet" href="style.css">
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Regna
+    Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 </head>
 
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- <a href="https://smith-jj.github.io-latitude/index"><img src="assets/images/logo.png" alt="" title="" /></img></a> -->
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <h1><a href="#hero">LATITUDE</a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li class="menu-has-children"><a href="#portfolio">Plots</a>
+            <ul>
+              <li><a href="https://smith-jj.github.io-latitude/MaxTemp">Latitute vs. Max Tempature</a></li>
+              <li><a href="https://smith-jj.github.io-latitude/Humidity">Latitute vs. Humidity</a></li>
+              <li><a href="https://smith-jj.github.io-latitude/Cloudiness">Latitute vs. Cloudiness</a></li>
+              <li><a href="https://smith-jj.github.io-latitude/WindSpeed">Latitute vs. Wind Speed</a></li>
+            </ul>
+          <li><a href="https://smith-jj.github.io-latitude/Data">Data</a></li>
+          <li><a href="https://smith-jj.github.io-latitude/Comparison">Comparison</a></li>
+          </li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome to Latitude vs X</h1>
+      <h2>Exploring the relationship between latitude location and weather.</h2>
+      <a href="https://smith-jj.github.io-latitude/Data" class="btn-get-started">View Data</a>
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+<!--==========================
+      About Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title">About the Project</h2>
+            <p>
+              How does the latitude location of a city relate to the weather? Using OpenWeatherMap API weather data for over 500 random cities was pulled into a database. Using this data, four plots were created to visualize the relationship of the weather data and the latitude. 
+            </p>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon" ><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="https://smith-jj.github.io-latitude/Data">Data</a></h4>
+              <p class="description">View the weather data from random cities.</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-photo"></i></div>
+              <h4 class="title"><a href="https://smith-jj.github.io-latitude/Comparison">Comparison</a></h4>
+              <p class="description">Compare the Max Tempature, Humidity, Cloudiness, and Wind Speed plots.</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+<!--==========================
+    Call To Action Section
+    ============================-->
+    <section id="call-to-action">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Compare the Results</h3>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://smith-jj.github.io-latitude/Comparison">Compare Plots</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+<!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Portfolio</h3>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-FigOne, .filter-FigTwo, .filter-FigThree, .filter-web" class="filter-active">All</li>
+              <li data-filter=".filter-FigOne">FigOne</li>
+              <li data-filter=".filter-FigTwo">FigTwo</li>
+              <li data-filter=".filter-FigThree">FigThree</li>
+              <li data-filter=".filter-FigFour">FigFour</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-FigOne">
+            <a href="https://smith-jj.github.io-latitude/MaxTemp">
+              <img src="img/portfolio/app1.jpg" alt="">
+              <div class="details">
+                <h4>Max Tempature</h4>
+                <span>Latitude vs. Max Tempature</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-FigTwo">
+            <a href="https://smith-jj.github.io-latitude/Humidity">
+              <img src="img/portfolio/web2.jpg" alt="">
+              <div class="details">
+                <h4>Humidity</h4>
+                <span>Latitude vs. Humidity</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-FigThree">
+            <a href="https://smith-jj.github.io-latitude/Cloudiness">
+              <img src="img/portfolio/app3.jpg" alt="">
+              <div class="details">
+                <h4>Cloudiness</h4>
+                <span>Latitude vs. Cloudiness</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-FigFour">
+            <a href="https://smith-jj.github.io-latitude/WindSpeed">
+              <img src="img/portfolio/card1.jpg" alt="">
+              <div class="details">
+                <h4>Wind Speed</h4>
+                <span>Latitude vs. Wind Speed</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section><!-- #portfolio -->
+
+    </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Regna</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
+        -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#main" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
+
+<!---OLD Navbar for link reference:
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Latitude</a>
+    <a class="navbar-brand" href="https://smith-jj.github.io-latitude/index">Latitude Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,26 +255,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="https://smith-jj.github.io/Comparison">Comparison<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="https://smith-jj.github.io-latitude/Data">Data<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://smith-jj.github.io/Data">Data<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="https://smith-jj.github.io-latitude/Comparison">Comparison<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="https://smith-jj.github.io/MaxTemp">Max Temperature</a>
-            <a class="dropdown-item" href="https://smith-jj.github.io/Humidity">Humidity</a>
-            <a class="dropdown-item" href="https://smith-jj.github.io/Cloudiness">Cloudiness</a>
-            <a class="dropdown-item" href="https://smith-jj.github.io/WindSpeed">Wind Speed</a>
+            <a class="dropdown-item" href="https://smith-jj.github.io-latitude/MaxTemp">Max Temperature</a>
+            <a class="dropdown-item" href="https://smith-jj.github.io-latitude/Humidity">Humidity</a>
+            <a class="dropdown-item" href="https://smith-jj.github.io-latitude/Cloudiness">Cloudiness</a>
+            <a class="dropdown-item" href="https://smith-jj.github.io-latitude/WindSpeed">Wind Speed</a>
           </div>
         </li>
       </ul>
     </div>
-  </nav>
-
-  <body>
-
-  </body>
+  </nav> -->
